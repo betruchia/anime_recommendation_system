@@ -8,6 +8,13 @@ finalproject_ironhack_daft
 - competição do kaggle:
   https://www.kaggle.com/competitions/anime-recommendation-system-by-tah
 
+### bibliotecas usadas
+
+- numpy
+- pandas
+- scipy.sparse.csc_matrix
+- sklearn.metrics.pairwise_distances
+
 ### proposta
 
 - usando arquivos da competição, que contêm informações do site https://myanimelist.net/ (dados sobre os animes, como avaliações feitas pelos usuários), quis criar um sistema de recomendação para uso geral.
@@ -39,6 +46,7 @@ finalproject_ironhack_daft
 - mudar a função de soma das notas para algo que considere a frequência com que cada anime aparece na lista dos 100 mais próximos.
 - colocar o sistema no streamlit, para maior interatividade do usuário, e com uma interface mais amigável.
 - no streamlit, resolver a questão do número de animes, caso persista a ideia de usar inserção via selectbox.
+- rodar o selenium para incluir imagem dos animes no streamlit quando exibir as recomendações finais (incluir também o link para as respectivas páginas no https://myanimelist.net/).
 - pensar nalguma forma de usar outras informações para aprimorar o sistema (como gênero do anime, ou se os usuários não terminaram de assistir/planejam assistir, etc).
 - tentar ampliar ao máximo o número de próximos, a fim de viabilizar que haja recomendações, por mais avaliações que o novo usuário forneça.
 
